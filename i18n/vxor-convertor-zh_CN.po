@@ -1,0 +1,367 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: vXor Convertor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-23 23:06+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: yeyezai <yeyezai@gmail.com>\n"
+"Language-Team: yeyezai <yeyezai@163.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: ../lib\n"
+"X-Poedit-SearchPath-1: ../plugins\n"
+
+#: ../lib/convert.func.php:16
+msgid "Error Messgae: "
+msgstr "错误信息："
+
+#: ../lib/convert.func.php:18
+msgid "Error Data: "
+msgstr "错误数据："
+
+#: ../lib/convert.func.php:705
+msgid "Invalid taxonomy"
+msgstr ""
+
+#: ../lib/convert.func.php:708
+msgid "Invalid term ID"
+msgstr ""
+
+#: ../lib/convert.func.php:711
+msgid "A name is required for this term"
+msgstr "必须为条目命名"
+
+#: ../lib/convert.func.php:1112
+msgid "Could not insert link into the database"
+msgstr "无法往数据库中插入链接"
+
+#: ../lib/convert.func.php:1237
+msgid "This is an example of a WordPress page, you could edit this to put information about yourself or your site so readers know where you are coming from. You can create as many pages like this one or sub-pages as you like and manage all of your content inside of WordPress."
+msgstr "这里是 <strong>关于</strong> 页面，是一个 WordPress 页面样例，您可以编辑本页面，写上您和网站的信息以便读者了解您。您可以创建任意多的页面或者子页面，并在 WordPress 里管理所有这些。"
+
+#: ../lib/convert.func.php:1239
+msgid "About"
+msgstr "关于"
+
+#: ../lib/convert.func.php:1273
+msgid "This is <strong>GuestBook</strong> page, an example of a WordPress page, you could edit this to put information about yourself or your site so readers know where you are coming from. You can create as many pages like this one or sub-pages as you like and manage all of your content inside of WordPress."
+msgstr "这里是 <strong>留言簿</strong> 页面，是一个 WordPress 页面样例，您可以编辑本页面，写上您和网站的信息以便读者了解您。您可以创建任意多的页面或者子页面，并在 WordPress 里管理所有这些。"
+
+#: ../lib/convert.func.php:1275
+msgid "GuestBook"
+msgstr "留言簿"
+
+#: ../lib/vxor.class.php:118
+msgid "Post Replacement"
+msgstr "日志替换内容"
+
+#: ../lib/vxor.class.php:136
+#, php-format
+msgid "<strong>Important:</strong> before converting, please <u>backup your database</u>. For help with convert, visit the <a href=\"%1$s\" title=\"%2$s\">plugin site</a>."
+msgstr "<strong>重要提示：</strong>在转换之前，请先<u>备份好数据库</u>。关于转换的帮助，请<a href=\"%1$s\" title=\"%2$s\">访问插件主页</a>。"
+
+#: ../lib/vxor.class.php:136
+#: ../lib/vxor.func.php:275
+msgid "Visit plugin site"
+msgstr "访问插件主页"
+
+#: ../lib/vxor.class.php:168
+msgid ""
+"Extend setting are optional.<br>\n"
+"For more infomation, please read the plugin convert readme."
+msgstr "附加设置是可选项。<br>更多信息，请阅读插件转换说明。"
+
+#: ../lib/vxor.class.php:173
+msgid "Save Extend"
+msgstr "保存扩展设置"
+
+#: ../lib/vxor.class.php:187
+msgid "Extend setting were saved."
+msgstr "附加设置已保存完成。"
+
+#: ../lib/vxor.class.php:190
+msgid ""
+"Click 'Previous' for modifying extend setting.<br>\n"
+"Click 'Start Convert' for converting.\n"
+"            "
+msgstr ""
+"点击 '上一步' 返回修改附加设置。<br>\n"
+"点击 '开始转换' 开始转换数据。"
+
+#: ../lib/vxor.class.php:194
+#: ../lib/vxor.class.php:249
+#: ../lib/vxor.class.php:392
+msgid "Previous"
+msgstr "上一步"
+
+#: ../lib/vxor.class.php:194
+msgid "Start Convert"
+msgstr "开始转换"
+
+#: ../lib/vxor.class.php:244
+msgid ""
+"<p>Converted!</p>\n"
+"<ul><li>Click 'Previous' for reconverting.</li>\n"
+"<li>Click 'Finish' for ending.</li>\n"
+"<li>After finish, you have to login with your original blog account.</li>\n"
+"<li>For more infomation, please read the plugin convert readme.</li></ul></p>"
+msgstr ""
+"<p>转换完成！</p>\n"
+"<ul><li>点击 '上一步' 重新转换。</li>\n"
+"<li>点击 '完成' 结束转换。</li>\n"
+"<li>完成后，您需要以原博客账号重新登录。</li>\n"
+"<li>更多信息，请阅读转换插件说明。</li></ul></p>"
+
+#: ../lib/vxor.class.php:249
+msgid "Finish"
+msgstr "完成"
+
+#: ../lib/vxor.class.php:276
+msgid "All done."
+msgstr "全部完成。"
+
+#: ../lib/vxor.class.php:276
+msgid "Have fun!"
+msgstr "玩得愉快！"
+
+#: ../lib/vxor.class.php:293
+msgid "Check XML file"
+msgstr "检测 XML 文件"
+
+#: ../lib/vxor.class.php:360
+#, php-format
+msgid "Howdy! This imports %1$s from %2$s %3$s into this blog."
+msgstr "您好，这个转换程序将帮您从%2$s %3$s 的系统中导出 %1$s 并导入到 WordPress 系统。"
+
+#: ../lib/vxor.class.php:362
+msgid "Requirements: Microsoft Access Driver or Microsoft.Jet.OLEDB.4.0 Driver installed in this server."
+msgstr "转换要求：本服务器上已安装 Microsoft Access Driver 或 Microsoft.Jet.OLEDB.4.0 Driver。"
+
+#: ../lib/vxor.class.php:368
+msgid "Check Connect Database"
+msgstr "测试连接数据库"
+
+#: ../lib/vxor.class.php:384
+msgid ""
+"\n"
+"<h1>Error establishing a database connection</h1>\n"
+"<ul>\n"
+"\t<li>Are you sure you have the correct username and password?</li>\n"
+"\t<li>Are you sure that you have typed the correct hostname?</li>\n"
+"\t<li>Are you sure that the database server is running?</li>\n"
+"</ul>\n"
+"<p>If you're unsure what these terms mean you should probably contact your host.</p>\n"
+"                "
+msgstr ""
+"\n"
+"<h1>数据库连接错误</h1>\n"
+"<ul>\n"
+"\t<li>您确认您提供的用户名和密码正确么？</li>\n"
+"\t<li>您确认您提供的主机名正确么？</li>\n"
+"\t<li>您确认数据库服务器正常运行么？</li>\n"
+"</ul>\n"
+"<p>如果您无法确定这些问题，请联系您的主机管理员。</p>\n"
+"                "
+
+#: ../lib/vxor.class.php:460
+#: ../lib/vxor.class.php:469
+#, php-format
+msgid "It's converting %s data... "
+msgstr "正在转换 %s 数据……"
+
+#: ../lib/vxor.class.php:461
+#: ../lib/vxor.class.php:471
+#, php-format
+msgid "%s to %s were conveted."
+msgstr "已经转换完成 %s 至 %s。"
+
+#: ../lib/vxor.class.php:466
+msgid "Completed!"
+msgstr "转换完成！"
+
+#: ../lib/vxor.class.php:519
+#, php-format
+msgid "%s variable undefined or empty value in config.php."
+msgstr "config.php 配置文件中变量 %s 未定义或值为空。"
+
+#: ../lib/vxor.class.php:523
+#, php-format
+msgid "<strong>$vxor_dbcheck</strong> missing key <strong>%s</strong>"
+msgstr "<strong>$vxor_dbcheck</strong> 丢失索引值 <strong>%s</strong>"
+
+#: ../lib/vxor.class.php:603
+msgid "Database no exists."
+msgstr "数据库不存在。"
+
+#: ../lib/vxor.func.php:266
+#, php-format
+msgid "Version %s"
+msgstr "版本 %s"
+
+#: ../lib/vxor.func.php:268
+#, php-format
+msgid "By %s"
+msgstr "作者为 %s"
+
+#: ../lib/vxor.func.php:270
+msgid "Visit author homepage"
+msgstr "访问作者主页"
+
+#: ../lib/vxor.func.php:278
+#, php-format
+msgid "Visit %s site"
+msgstr "访问 %s 主页"
+
+#: ../lib/vxor.func.php:324
+#, php-format
+msgid "%s Database User"
+msgstr "%s 数据库用户"
+
+#: ../lib/vxor.func.php:328
+#, php-format
+msgid "%s Database Password"
+msgstr "%s 数据库密码"
+
+#: ../lib/vxor.func.php:333
+#, php-format
+msgid "%s Database Name"
+msgstr "%s 数据库名"
+
+#: ../lib/vxor.func.php:337
+#: ../lib/vxor.func.php:344
+#, php-format
+msgid "%s Database Host"
+msgstr "%s 数据库主机"
+
+#: ../lib/vxor.func.php:351
+#, php-format
+msgid "%s Table prefix"
+msgstr "%s 表前缀"
+
+#: ../lib/vxor.func.php:355
+msgid "Records / Time"
+msgstr "每次转换记录条数"
+
+#: ../lib/vxor.func.php:378
+msgid "Option Name"
+msgstr "选项"
+
+#: ../lib/vxor.func.php:379
+msgid "Old Value"
+msgstr "原始值"
+
+#: ../lib/vxor.func.php:380
+msgid "New Value"
+msgstr "替换值"
+
+#: ../lib/vxor.func.php:383
+msgid "Blog URL"
+msgstr "博客网址"
+
+#: ../lib/vxor.func.php:390
+msgid "ADD"
+msgstr "添加"
+
+#: ../lib/vxor.func.php:390
+msgid "DELETE"
+msgstr "删除"
+
+#: ../lib/vxor.func.php:421
+#, php-format
+msgid "Post Replacement %s"
+msgstr "日志替换内容 %s"
+
+#: ../lib/vxor.func.php:460
+msgid "Add"
+msgstr "添加"
+
+#: ../lib/vxor.func.php:513
+msgid "Initialing database..."
+msgstr "正在初始化数据库……"
+
+#: ../plugins/blogbus/config.php:33
+#: ../plugins/f2cont/config.php:21
+msgid "Attachments Folder"
+msgstr "附件文件夹"
+
+#: ../plugins/f2cont/config.php:22
+msgid "Protected Posts Password"
+msgstr "加密日志密码"
+
+#: ../plugins/f2cont/config.php:23
+msgid "Original Time Zone"
+msgstr "原博客时区"
+
+#: ../plugins/f2cont/config.php:24
+msgid "Page About"
+msgstr "关于 页面"
+
+#: ../plugins/f2cont/config.php:25
+msgid "Page Guest"
+msgstr "留言簿 页面"
+
+#: ../plugins/pjblog3/config.php:25
+msgid "Administator Name"
+msgstr "管理员名称"
+
+#: ../plugins/pjblog3/config.php:26
+msgid "Administator Password"
+msgstr "管理员密码"
+
+#~ msgid "Next"
+#~ msgstr "下一步"
+
+#~ msgid "Pages"
+#~ msgstr "页面"
+
+#~ msgid "Steps key error in $vxor_steps."
+#~ msgstr "$vxor_steps 索引值有误。"
+
+#~ msgid "Error Code: "
+#~ msgstr "错误代码："
+
+#~ msgid "All configuration are saved."
+#~ msgstr "全部配置已保存完成。"
+
+#~ msgid "Error establishing a database connection"
+#~ msgstr "数据库连接错误"
+
+#~ msgid "Anonymous"
+#~ msgstr "匿名"
+
+#~ msgid "Back"
+#~ msgstr "返　回"
+
+#~ msgid "Continue"
+#~ msgstr "继　续"
+
+#~ msgid "%s Database File:"
+#~ msgstr "%s 数据库文件："
+
+#~ msgid "Database connecting successful!"
+#~ msgstr "数据库连接成功！"
+
+#~ msgid "Database connect failed!<br>Please check the configuration."
+#~ msgstr "数据库连接失败！<br>请检查配置是否正确。"
+
+#~ msgid "This has not been tested on other versions of %s.  Mileage may vary."
+#~ msgstr "这个转换程序没有在其他版本的 %s 测试过。效果可能有所出入。"
+
+#~ msgid "Your %s Configuration settings are as follows:"
+#~ msgstr "您的 %s 配置如下："
+
+#~ msgid "All the config are OK. Now auto going to the convert step!"
+#~ msgstr "配置完成。接着将自动跳到转换步骤。"
+
+#~ msgid "Converting: %s - %s"
+#~ msgstr "正在转换： %s - %s"
+
+#~ msgid "Visit blog site"
+#~ msgstr "访问博客主页"
